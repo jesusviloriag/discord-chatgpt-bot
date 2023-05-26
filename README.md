@@ -7,15 +7,20 @@ A bot that can respond using ChatGPT and can also generate images
 npm start
 ```
 
-You can send prompts to the bot and for image generation:
+You can send prompts to the bot 
+![alt text](https://i.imgur.com/dIpVNn6.png)
+
+For image generation:
 ```
 /image <prompt>
 ```
+![alt text](https://i.imgur.com/tiG0qnn.png)
 
 Or for a random image generation:
 ```
 /image random
 ```
+![alt text](https://i.imgur.com/GJYpiJR.png)
 
 ## Environment Variable
 
