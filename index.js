@@ -66,7 +66,7 @@ client.on('messageCreate', async (message) => {
         const api = new ChatGPTAPI({
           apiKey: process.env['chatGPTApiKey']
         });
-        const res = await api.sendMessage("generate a random prompt for an image creation");  //request random text prompt from ChatGPT
+        const res = await api.sendMessage("generate a random sentence describing something with a background and a random drawing style");  //request random text prompt from ChatGPT
         const response = await openai.createImage({  //generate image
           prompt: res.text,
           n: 1,
